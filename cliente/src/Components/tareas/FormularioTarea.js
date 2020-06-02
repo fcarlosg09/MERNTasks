@@ -2,7 +2,25 @@ import React from 'react';
 
 const FormularioTarea = () => {
     return ( 
-        <h3>Formulario Tarea</h3>
+        <div className="formulario">
+            <form>
+                <div className="contenedor-input">
+                    <input 
+                        type="text"
+                        className="input-text"
+                        placeholder="Nombre Tarea..."
+                        name="nombreTarea"
+                    />
+                </div>
+                <div className="contenedor-input">
+                    <input 
+                        type="submit"
+                        className="btn btn-primario btn-submit btn-block"
+                        value="Agregar Tarea"
+                    />
+                </div>
+            </form>
+        </div>
      );
 }
  
