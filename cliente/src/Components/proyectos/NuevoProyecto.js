@@ -17,7 +17,15 @@ const NuevoProyecto = () => {
 
     const FnAgregarProyecto = (e) =>{
         e.preventDefault();
-        console.log('a');
+        
+        
+        //Validar el proyecto
+
+
+        //Agregar el state
+
+
+        //Reiniciar el form
     };
 
     return ( 
