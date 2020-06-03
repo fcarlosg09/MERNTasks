@@ -3,12 +3,7 @@ import Proyecto from './Proyecto';
 
 const ListadoProyectos = () => {
 
-    const proyectos = [
-        { nombre: 'Tienda Virtual' },
-        { nombre: 'Intranet' },
-        { nombre: 'Diseño sitio web' }
-    ]
-
+    const proyectos = [];
     return ( 
         <ul className="listado-proyectos">
             {
